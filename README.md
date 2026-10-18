@@ -4,9 +4,7 @@
 
 ```mermaid
 flowchart LR
-    A[User] --> B[Advance Programming Python]
-    B --> C{Logic}
-    C --> D[(Data)]
-    C --> E[Output]
-    D --> C
+    User --> Entry[Entry point]
+    Entry --> Logic[Application logic]
+    Logic --> Output[Output]
 ```
