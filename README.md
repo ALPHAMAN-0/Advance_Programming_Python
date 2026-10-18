@@ -4,7 +4,9 @@
 
 ```mermaid
 flowchart LR
-    User --> Entry[Entry point]
-    Entry --> Logic[Application logic]
-    Logic --> Output[Output]
+    Student --> Notes[Python study notes]
+    Notes --> Examples[Code examples]
+    Notes --> Exercises[Practice exercises]
+    Examples --> StdLib[Python stdlib]
+    Exercises --> StdLib
 ```
