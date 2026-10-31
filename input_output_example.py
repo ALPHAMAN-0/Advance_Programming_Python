@@ -1,6 +1,5 @@
 """Beginner-friendly console input and output example."""
 
-import utils.session
 name = input("Enter your name: ")
 age_text = input("Enter your age: ")
 
